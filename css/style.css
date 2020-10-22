@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  height: 450px;
+  width: 450px;
+}
+
+.tile {
+  border: 2px solid;
+  height: 150px;
+  width: 140px;
+  font-size: 40px;
+}
+
+#reset {
+  height: 55px;
+  width: 100px;
+  margin: 30px;
+}
